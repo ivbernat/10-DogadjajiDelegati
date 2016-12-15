@@ -32,7 +32,7 @@ namespace Vsite.CSharp
 
             // TODO: Ispisati tablicu kvadrata tako da se u pozivu metode IspišiFunkciju navede lambda izraz.
 
-
+            IspišiFunkciju(x => x * x, 0, 10, 11);
             
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
